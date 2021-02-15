@@ -2,6 +2,9 @@
 
 *Le but de ce fichier est de mettre à plat l'organisation de votre équipe et de votre semaine de projet - il est à remplir le lundi du lancement du projet et à présenter à l'encadrante du jour*
 
+Equipe = Marie, Laura, Juliette
+Niveau = 1
+
 ## Roadmap
 
 - Produire un découpage de features et créer autant  d'"issues" sur votre repo (selon la méthode vue avec Adrien en plénière)
