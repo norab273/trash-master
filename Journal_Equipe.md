@@ -5,3 +5,9 @@
 Lundi 15 février 2021: 
 
  tuto sur Pico-8 et maquettage/découpage du projet sur Github
+
+Mardi 14 février 2021: 
+
+ fin des tutos Pico-8
+ création map et sprite du jeu
+ comment changer taille des sprite 
