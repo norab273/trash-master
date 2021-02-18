@@ -11,3 +11,8 @@ Mardi 14 février 2021:
  fin des tutos Pico-8
  création map et sprite du jeu
  comment changer taille des sprite 
+
+Mercredi 15 février 2021: 
+
+fin du graphismes de sprites puis comment afficher sprite et collision
+pour demain: comment lancer un sprite 
