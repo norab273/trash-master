@@ -100,7 +100,7 @@ function _draw()
 --jaune
 	spr(64,80,15,4,4)
 --dechets
- for i,t in pairs(trashtab) do
+ for t in all(trashtab) do
 	spr(t.sprite,t.x,t.y)	
  end
 end
@@ -121,7 +121,7 @@ end
 
 function grab(p,t)
 -- print(trashtab[1].x)
-	for i,t in pairs(trashtab) do
+	for t in all(trashtab) do
 	 if collision(p,t)==true then
 	 	t.x = p.x+5
  		t.y = p.y-5
