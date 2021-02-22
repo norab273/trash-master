@@ -1,0 +1,91 @@
+
+2021-02-16 20:48:40 
+ iicc
+2021-02-16 20:49:20 
+ i.ii....i..ii..iiiii.....iii
+2021-02-16 21:02:04 c:/Users/Laura/Documents/ADA/Semaine_3_jeu _Pico/PC-pico8-marie-laura-juliette/pico-8/carts/essai1.p8
+ rrricc.c.cccccccc.ccccccc.cccccccccccccc.ccccccccccccccccccc..cccccccccc.ccccc.c
+ cccc..ccccccccc.c.ccccccccccc.ccci..ccci..cc.ccccccicccccc....ccccci......i.....
+ ....ccc.ccicccccccccccciccccc.c.ccccccccci...ccccci.cccccccccccccc.cicccccc.....
+ ....cc..i.ii.........iccccccccccccccccccccccci.ccc.........c..cccccr__iccccccccc
+ ccccc.cci..ccc.....r_cc........ccc.c..cccccccccccccccric.ccccci..c.........ccccc
+ i.....ccccic..cc
+2021-02-17 13:47:53 
+ iigggggggggg.ggggggggggggggggggggggggggggggggggggggggggggg.gggg.ggggggggggggg..g
+ g.....ggggg.........gggggggggggggggggggggggggggggg.........ggggggggggggggggggggg
+ gggggggg.ggggggggggggggggggggggggggggggggg.........gggggggg.........gggggggggggg
+ 
+2021-02-17 14:19:27 c:/Users/Laura/Documents/ADA/Semaine_3_jeu _Pico/PC-pico8-marie-laura-juliette/pico-8/carts/essai1.p8
+ rcccccccc.....c....cccccc........c..cccc........ccc.........c.........c.........
+ ccc........c..cccc.........cccc....c..c.ccccc.........c.cc.........cc.........cc
+ cc.ccccccccccccc.........cc.........c.ccc.........cc.........cc.....cc..cc..cc..
+ ggggggggggggggggggggggg...gg.........giiiiii.........i.........i...ic........ccccc.ccccc.cc..cc.ccciiiiiccc.........ccciii.i.iic.........cc.........
+ ccc.........cccc.c....ccccccc.........ccc....cccccc.........c..cccccic..ccc.....
+ ....c.cccccc.........cc.........ccc.........c...cccccccc.........cc..ccc.c......
+ ...ccccccccccc.ccccccc.ccccccc..ccccc..c.........ccccc.........cc.........cc....
+ .....cc
+2021-02-17 19:19:36 
+ i
+2021-02-17 19:20:33 
+ 
+2021-02-17 19:22:55 c:/Users/Laura/Documents/ADA/Semaine_3_jeu _Pico/PC-pico8-marie-laura-juliette/pico-8/carts/essai1.p8
+ iiiiii........iiii.....iiiiiii.iiiiii.ii.........iii
+2021-02-17 19:23:24 C:/Users/Laura/AppData/Roaming/pico-8/carts/essai 2.p8
+ rii..ccc.....ccccccccccccccccccc..cccc.cccc.ccc..ccc.ccc.ccc..cccgg.gggg.gg.gsss
+ iiccc..ccc.........cccc..ccc..ccc..ccc..cc.ccc.cccc.g..ggggg..ggg.........g....s
+ sssssssssssssssss.........sss.........sss.ss.........s.........ssssssssssssssssssssssssssss.s....sssssssssssssssssssssssssgccccccccciicc.cccc..c
+ ..cci.iic....ccc.ciiiiii.i.iii.........ii.ii...
+2021-02-18 08:46:23 c:/Users/Laura/Documents/ADA/Semaine_3_jeu _Pico/PC-pico8-marie-laura-juliette/trash_master.p8
+ r_______rrricrrrriccccccccccccc.c....cirrr_________rrr_______r__r_________rrr___
+ 
+2021-02-18 08:53:24 c:/Users/Laura/Documents/ADA/Semaine_3_jeu _Pico/PC-pico8-marie-laura-juliette/pico-8/carts/essai1.p8
+ riccc.........cc.cc..csssssssssss.........ss.........scccccc.........c.........c
+ __rrrr_rr_rrrr_rcc...cc.........cgg....gg.........g......gg........g.........gg.
+ ...gcc......gg.........g.........gggg..ggggggg.g..gggg.ggggg.g.g...g....ggcccr__
+ .........ccc.........cccccc.........c.........cccc.cc.........ccc.........cc..cc
+ _______r_________igg.gg.........g.gg.g....gggg.gggg...g..g.........g.........gcc
+ .c..rrc......c.........cccc.........c.........c.........ci
+2021-02-18 11:09:31 c:/Users/Laura/Documents/ADA/Semaine_3_jeu _Pico/PC-pico8-marie-laura-juliette/pico-8/carts/essai1.p8
+ 
+2021-02-18 11:09:32 c:/Users/Laura/Documents/ADA/Semaine_3_jeu _Pico/PC-pico8-marie-laura-juliette/pico-8/carts/essai1.p8
+ ri.i.ccciii...r........i.iii.iiiiii
+2021-02-18 13:19:06 c:/Users/Laura/Documents/ADA/Semaine_3_jeu _Pico/PC-pico8-marie-laura-juliette/trash_master.p8
+ rrrr_
+2021-02-18 13:26:26 c:/Users/Laura/Documents/ADA/Semaine_3_jeu _Pico/PC-pico8-marie-laura-juliette/trash_master.p8
+ r.....i....ii.........ici.ccccc
+2021-02-18 13:28:17 c:/Users/Laura/Documents/ADA/Semaine_3_jeu _Pico/PC-pico8-marie-laura-juliette/trash_master.p8
+ 
+2021-02-18 13:39:15 c:/Users/Laura/Documents/ADA/Semaine_3_jeu _Pico/PC-pico8-marie-laura-juliette/trash_master.p8
+ 
+2021-02-18 13:44:19 c:/Users/Laura/Documents/ADA/Semaine_3_jeu _Pico/PC-pico8-marie-laura-juliette/trash_master.p8
+ 
+2021-02-18 13:46:21 c:/Users/Laura/Documents/ADA/Semaine_3_jeu _Pico/PC-pico8-marie-laura-juliette/trash_master.p8
+ r..iccccc.ccccccccccccii......ii.........i.......i.........ii.i.........ri..ii.....i..cc.........c.c.........r....i.........r...ii.....i.........i
+2021-02-18 14:17:05 
+ iiiii.ii........ii...i
+2021-02-18 14:18:37 
+ iii
+2021-02-18 14:18:46 C:/Users/Laura/AppData/Roaming/pico-8/carts/trash_master.p8
+ icccccic..ci.cccccc..cccccccc..ccc.cccccccccci...cc...c...c.........cccccccc.iic
+ cci..ii.........icccccccii.ccccccccic.........cccc......c.ccccccc......ccccccccc
+ cccccccccccccccccccccccccccci.ccccci.cii.........c....cccccccccccccc........ii..
+ 
+2021-02-18 14:37:36 
+ 
+2021-02-18 14:40:19 c:/Users/Laura/AppData/Roaming/pico-8/carts/trash_master.p8
+ 
+2021-02-18 14:41:18 c:/Users/Laura/AppData/Roaming/pico-8/carts/trash_master.p8
+ ri.....c.........i......cc.c.i.ciccccccccccccccicci.....ccci....cccccccc....c..c
+ c.........i...ii.....ii.ii.........iiiccccccccccccciicciiccciiii.cc.........ccc.
+ ccccciiicccci.ccic....cci.cccccciccic..ccccccii.........c.cccci..ccccrr___ic.ccc
+ r.i..ccc................i..c..ccci.....c.c.........cii.........cccrrccc....ccccccric..riiiiii
+2021-02-18 15:07:56 
+ i
+2021-02-18 15:07:59 C:/Users/Laura/AppData/Roaming/pico-8/carts/trash_master.p8
+ 
+2021-02-18 15:33:55 c:/Users/Laura/Documents/ADA/Semaine_3_jeu _Pico/PC-pico8-marie-laura-juliette/pico-8/carts/essai1.p8
+ rcccc.........cccirrc.........c...cccc.........c.........ccr
+2021-02-19 09:02:31 c:/Users/Laura/Documents/ADA/Semaine_3_jeu _Pico/PC-pico8-marie-laura-juliette/pico-8/carts/trash_master.p8
+ r_rr
+2021-02-19 09:04:43 
+ i..iiiiii.........i

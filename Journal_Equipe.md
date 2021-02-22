@@ -16,3 +16,18 @@ Mercredi 15 février 2021:
 
 fin du graphismes de sprites puis comment afficher sprite et collision
 pour demain: comment lancer un sprite 
+
+Jeudi 16 février: 
+après de nombreux échecs nous avons réussi à faire ramasser un objet au personnage et à le lancer (pas très loin mais c'est déjà ça)
+
+Lundi 22 février: 
+
+travail en autonomie, chacune une tâche: 
+Juliette: faire fonctionner la fonction Shoot pour lancer un objet correctement à la bonne vitesse
+ bilan fin de journée: une partie a été réalisée mais encore des bugs
+
+Marie: faire que le personnage se retourne et change de position lorsqu'il va en arrière
+bilan fin de journée:en cours d'exécution
+Laura: faire que le personnage attrape un seul déchet à la fois
+bilan fin de journée:le personnage arrive à attraper un seul déchet à la fois mais les autres déchets autour de lui se déplacent lorsque le perso bouge! Damn it! 
+
