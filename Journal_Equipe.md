@@ -31,3 +31,12 @@ bilan fin de journée:en cours d'exécution
 Laura: faire que le personnage attrape un seul déchet à la fois
 bilan fin de journée:le personnage arrive à attraper un seul déchet à la fois mais les autres déchets autour de lui se déplacent lorsque le perso bouge! Damn it! 
 
+Mardi 23 février: 
+
+bilan Marie: le personnage se retourne
+bilan Juliette/Laura: le personnage attrape un seul déchets à la fois, le lance et mise en place des explosions
+et score des erreurs
+à faire pour demain: problème de debug lorsque l'on ajoute le mouvement du perso fait par Marie
+speed/ distance des déchets lancés
+empêcher que le déchet ne revienne à l'envoyeur
+
