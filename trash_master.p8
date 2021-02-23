@@ -2,100 +2,113 @@ pico-8 cartridge // http://www.pico-8.com
 version 29
 __lua__
 function _init()
-	p={x=60,y=110,speed=2}
+	p={x=60,
+	y=110,
+	speed=2,
+	hastrash=0,
+	miroir=false}
+	throwing_count = 0
+	throwing = false
 	trashtab={
 		{
 		x=90,
 		y=110,
-		speed=4,
+		speed=150,
 		number=1,
 		sprite=16
 		},
 		{
 		x=100,
 		y=115,
-		speed=4,
+		speed=150,
 		number=1, 
 		sprite=17
 		},
 		{
 		x=40,
 		y=110,
-		speed=4,
+		speed=150,
 		number=1, 
 		sprite=18
 		},
 		{
 		x=20,
 		y=112,
-		speed=4,
+		speed=150,
 		number=2,
 		sprite=19
 		},
 		{
 		x=100,
 		y=80,
-		speed=4,
+		speed=40,
 		number=2,
 		sprite=20
 		},
 		{
 		x=10,
 		y=90,
-		speed=4,
+		speed=150,
 		number=2,
 		sprite=21
 		},
 		{
 		x=43,
 		y=76,
-		speed=4,
+		speed=150,
 		number=1,
 		sprite=32
 		},
 		{
 		x=85,
 		y=85,
-		speed=4,
+		speed=150,
 		number=2,
 		sprite=33
 		},
 		{
 		x=13,
 		y=55,
-		speed=4,
+		speed=150,
 		number=1,
 		sprite=34
 		},
 		{
 		x=39,
 		y=62,
-		speed=4,
+		speed=150,
 		number=1,
 		sprite=35 
 		},
 		{
 		x=59,
 		y=90,
-		speed=4,
+		speed=150,
 		number=2,
 		sprite=36
 		}
 	   }
+	
+green_bin={x=20,y=15,srite=10}
+yellow_bin={x=80,y=15,srite=64}
+explosions={}
+erreurs =0
 end
 
 function _update()
 	player_moves()
-	 grab(p,t)
-	 shoot()
+	grab()
+	movetrash()
+	update_trash1()
+	update_trash2()
+	update_explosions()
 end
 
 function _draw()
 	cls()
-	
 	map(0,0,0,0,128,64)
 --player
-	spr(6,p.x,p.y,2,2)
+	spr(6,p.x,p.y,2,2,p.miroir)
 --verte
 	spr(10,20,15,4,4)
 --jaune
@@ -104,12 +117,22 @@ function _draw()
  for t in all(trashtab) do
 	spr(t.sprite,t.x,t.y)	
  end
+--explosions
+draw_explosions()
+--erreurs
+print ("erreurs:",2,2,10)
+print (erreurs,2,8,10)
 end
 --end
 
 -->8
---collision
-function collision(a,b) 
+--collision-p-t
+
+--trash
+--1:recyclable
+--2:pas recyclable 
+
+function collision(a,b)  
 	if a.x>b.x+16
 	or a.y>b.y+16
 	or a.x+16<b.x
@@ -120,40 +143,115 @@ function collision(a,b)
 	end
 end 
 
-function grab(p,t)
--- print(trashtab[1].x)
-	for t in all(trashtab) do
-	 if collision(p,t)==true then
-	 	t.x = p.x+5
- 		t.y = p.y-5
+function grab()
+	for i,t in pairs(trashtab) do	
+ 	if collision(p,t)==true	
+ 	and p.hastrash==0
+ 	then
+ 		p.hastrash = i
+ 	elseif p.hastrash==i 
+ 	and throwing == false	then
+ 		t.x = p.x+5
+ 		t.y = p.y-5		
 		end
 	end
-end 
+end
+
+
+function shoottrash()	
+	if p.hastrash>0 then
+	throwing = true
+	throwing_count=100
+	p.hastrash = 0
+	end
+end
+
+function movetrash()
+	if throwing == true then
+		throwing_count -=1
+		trashtab[p.hastrash].y-=1
+		if throwing_count == 0 then
+			throwing = false
+		end	
+	end
+end		
 -->8
 --player
 function player_moves()
 	if (btn(➡️)) p.x+=p.speed
-	if (btn(⬅️)) p.x-=p.speed
+	if (btn(⬅️))	p.x-=p.speed
 	if (btn(⬆️)) p.y-=p.speed
 	if (btn(⬇️)) p.y+=p.speed
- for t in all(trashtab) do
-	if (btnp(❎)) shoot(t)
-end
+	if (btnp(❎)) shoottrash()
+
+	if (p.x<0) p.x=0
+ if (p.y<0) p.y=0
+ if (p.x>120) p.x=120
+ if (p.y>115) p.y=115
+
 end
 -->8
---shoot trash
-function shoot(t)
-	for t in all(trashtab) do
-	if collision(p,t)==true then
-	t.y-=t.speed
+--collision-t-bin
+function collision_bin(t,b)  
+	if t.x>b.x+32
+	or t.y>b.y+32
+	or t.x+32<b.x
+	or t.y+32<b.y then
+		return false
+	else
+		return true
+	end
+end 
+
+function update_trash1()
+	for i,t in pairs(trashtab) do
+		if trashtab[i].number==1
+		and collision_bin(t,green_bin)
+		then
+		create_explosions(t.x,t.y)
+		del (trashtab,trashtab[i])
+		erreurs +=1
+		end
+	end
+end			
+			
+function update_trash2()			
+		for i,t in pairs(trashtab) do
+			if trashtab[i].number==2
+			and collision_bin(t,yellow_bin) 
+			then
+			create_explosions(t.x,t.y)
+			del (trashtab,trashtab[i])
+			erreurs +=1
+		end
 	end
 end
-end
 -->8
---trash
+--explosion
+function create_explosions(x,y)
+	add(explosions,{
+		x = x,
+		y = y,
+		timer = 0
+	})
+	sfx(0)
+	end
+	
+function update_explosions()
+	for boom in all(explosions) do
+	boom.timer +=1
+		if boom.timer == 13 then
+			del(explosions,boom)
+		end
+	end
+end
 
---1:recyclable
---2:pas recyclable 
+function draw_explosions()
+	for boom in all(explosions) do
+		circ(boom.x, boom.y,
+		 boom.timer/1.5, 8+boom.timer%3)
+	end
+end	  
 
 
 __gfx__
