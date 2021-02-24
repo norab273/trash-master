@@ -40,3 +40,11 @@ et score des erreurs
 speed/ distance des déchets lancés
 empêcher que le déchet ne revienne à l'envoyeur
 
+Mercredi 24 février: 
+
+mouvement du personnage ajouté
+animations pour les succès 
+message Game Over 
+animation de fin de partie si le jeu est gagné
+création d'un super boss! 
+
