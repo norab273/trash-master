@@ -5,7 +5,7 @@ __lua__
 -- apprends a trier les dechets
 
 function _init()
-state = 0
+state = 3
 
 --player
 	p={x=60,
@@ -109,6 +109,7 @@ function _update()
 	if state==0 then update_game()
 	elseif state==1 then update_gameover()
 	elseif state==2 then update_gamewon()
+	elseif state==3 then update_startscreen()
 	end
 end
 
@@ -117,6 +118,7 @@ function _draw()
 	if state==0 then draw_game()
 	elseif state==1 then draw_gameover()
 	elseif state==2 then draw_gamewon()
+	elseif state==3 then draw_startscreen()
 	end
 end
 
@@ -237,10 +239,10 @@ end
 -->8
 --collision-t-bin
 function collision_bin(t,b)  
-	if t.x>b.x+16
-	or t.y>b.y+16
-	or t.x+16<b.x
-	or t.y+16<b.y then
+	if t.x>b.x+24
+	or t.y>b.y+24
+	or t.x+24<b.x
+	or t.y+24<b.y then
 		return false
 	else
 		return true
@@ -514,27 +516,39 @@ function spawn_trumps()
 	add(trumps,{
 		x=rnd(120),
 		y=10,
-		speed=100
 	})
 	end
 
 
 function update_trumps()
 	for t in all(trumps) do
-	t.y+=0.3
- t.speed+=20
+	t.y+=1.2
 		if t.y>128 then
 		del (trumps,t)
 		end
 --collision
 	for t in all(trumps) do
 			if collision(t,p) then
-			create_explosions()
+			--create_explosions()
 			sfx(1)
 			state=1
 			end
 		end
 	end
+end
+-->8
+--start_screen
+
+function update_startscreen()
+	if (btn(🅾️)) then state = 0
+	end
+end
+
+function draw_startscreen()
+	cls(3)
+	
+	print ("appuie sur les fleches pour te \ndeplacer. \n\nappuie sur x pour jeter les \ndechets dans les poubelles. \n\nutilise la poubelle jaune pour \nles dechets recyclables. \n\nattention a trump!",5,10,7)
+	print ("🅾️/c:reessayer",38,100,10)
 end
 __gfx__
 000000003333333333333333333373733333333333333333000000cccc00cc00000000ccc00cc000000000000000000000000000000000000000000000000000
