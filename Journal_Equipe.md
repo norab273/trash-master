@@ -48,3 +48,10 @@ message Game Over
 animation de fin de partie si le jeu est gagné
 création d'un super boss! 
 
+Jeudi 25 février: 
+
+Déjà le dernier jour de notre projet! On a réussi à afficher correctement notre super ennemi et lui donner une vitesse correcte. 
+On a également créé un message pour afficher les règles de notre jeu. 
+On a débriefé avec Adrien sur notre travail en équipe et sur des pistes d'amélioration. 
+On était fières de montrer ce qu'on avait réussi à produire! 
+
