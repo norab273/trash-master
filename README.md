@@ -1,5 +1,3 @@
-# Projet_Collectif_Template
+# Trash master
 
-Ce dépôt Git vous sert de base de travail pour les projets collectifs : en cliquant sur le lien fourni par l'encadrante, celui-ci sera automatiquement copié dans la dépôt que vous créerez pour ce projet.
-
-Il ne vous reste plus qu'à vous lancer sur le projet collectif, et à mettre à jour le dépôt au fil de l'eau !
+This video game teaches you how to recycle your trash. It is set-up on PICO-8, a fantasy console for making, sharing and playing tiny games.
